@@ -1,0 +1,163 @@
+/* ===== GENERAL ===== */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #fdf7fb;
+    margin: 0;
+    padding: 0;
+    color: #444;
+}
+
+/* ===== HEADER ===== */
+
+.header {
+    background-color: #b3d9ff;
+    text-align: center;
+    padding: 25px;
+}
+
+.header h1 {
+    color: purple;
+    font-size: 40px;
+    margin: 0;
+    text-align: center;
+}
+
+/* ===== NAVIGATION ===== */
+
+.navbar {
+    margin-top: 15px;
+}
+
+.navbar a {
+    display: inline-block;
+    text-decoration: none;
+    color: forestgreen;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 15px;
+    transition: 0.3s;
+}
+
+.navbar a:hover {
+    color: hotpink;
+}
+
+/* ===== HOME SECTION ===== */
+
+#home {
+    width: 95%;
+    text-align: center;
+}
+
+/* ===== ALL SECTIONS ===== */
+
+.section {
+    width: 85%;
+    background-color: white;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(179, 217, 255, 0.3);
+}
+
+/* ===== TITLES ===== */
+
+h2 {
+    color: #ff99cc;
+    text-align: center;
+}
+
+h3 {
+    color: #66a3ff;
+}
+
+/* ===== PHOTOS ===== */
+
+.photo {
+    border: 3px solid #b3d9ff;
+    border-radius: 12px;
+    margin: 10px;
+}
+
+/* ===== LISTS ===== */
+
+.skills-list,
+.activities-list {
+    list-style: none;
+    padding: 0;
+}
+
+.skills-list li,
+.activities-list li {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+/* ===== TABLE ===== */
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.table th,
+.table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+.table th {
+    background-color: #ffb6d9;
+    color: #333;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f8f8f8;
+}
+
+/* ===== CONTACT FORM ===== */
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #b3d9ff;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contact-form input[type="submit"] {
+    background-color: #b3d9ff;
+    color: #333;
+    border: none;
+    cursor: pointer;
+    padding: 12px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #ffb6d9;
+}
+
+/* ===== FOOTER ===== */
+
+.footer {
+    background-color: #b3d9ff;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+.contact-photo {
+    width: 250px;
+    display: block;
+    margin: 15px auto;
+    border-radius: 15px;
+    border: 3px solid #ff69b4;
+}
